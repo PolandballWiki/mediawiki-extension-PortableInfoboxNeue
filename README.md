@@ -1,16 +1,16 @@
 # PortableInfobox
-Port of FANDOM's https://github.com/Wikia/app/tree/dev/extensions/wikia/PortableInfobox extension to MediaWiki 1.39.0+ (1.36-1.38 are available in release branches)
+Fork of PortableInfobox https://github.com/Universal-Omega/PortableInfobox for versions higher than MediaWiki 1.42+.
 
 ## Installation
 Grab the latest release from [GitHub](https://github.com/Universal-Omega/PortableInfobox) and unpack it into `extensions\PortableInfobox` directory in your MediaWiki installation or clone this repository, by using these commands:
 ```bash
 cd extensions
-git clone https://github.com/Universal-Omega/PortableInfobox.git --depth=1
+git clone https://github.com/PolandballWiki/mediawiki-extension-PortableInfoboxNeue --depth=1
 ```
 
 and add the following code at the bottom of [LocalSettings.php](https://www.mediawiki.org/wiki/Manual:LocalSettings.php):
 ```php
-wfLoadExtension( 'PortableInfobox' );
+wfLoadExtension( 'PortableInfoboxNeue' );
 ```
 
 ## Configuration
