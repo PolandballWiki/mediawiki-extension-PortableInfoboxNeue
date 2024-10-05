@@ -1,4 +1,4 @@
-# PortableInfobox
+# PortableInfoboxNeue
 Fork of PortableInfobox https://github.com/Universal-Omega/PortableInfobox for versions higher than MediaWiki 1.42+.
 
 ## Installation
